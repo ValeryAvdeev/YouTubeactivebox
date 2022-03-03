@@ -28,3 +28,21 @@
   line-height: 1.5;
   color: #787e84;
 }
+
+@media (max-width: 991px) {
+  .features__item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .features {
+    margin: 40px 0;
+  }
+
+  .features__item {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

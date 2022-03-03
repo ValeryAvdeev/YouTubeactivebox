@@ -3,20 +3,17 @@
   display: inline-block;
   vertical-align: top;
   padding: 14px 40px;
-
   border-radius: 4px;
   cursor: pointer;
   font-family: inherit;
   /* or*/
   /* font-family: 'Raleway', sans-serif;*/
   border: 0;
-
   font-size: 13px;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-
   transition: background .1s linear;
 }
 
@@ -31,4 +28,10 @@
 
 .btn--long {
   min-width: 280px;
+}
+
+@media (max-width: 767px) {
+  .btn--long {
+    min-width: 260px;
+  }
 }

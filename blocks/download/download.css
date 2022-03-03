@@ -19,3 +19,13 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+
+@media (max-width: 767px) {
+  .download {
+    margin: 50px 0;
+  }
+
+  .download__title {
+    font-size: 24px;
+  }
+}

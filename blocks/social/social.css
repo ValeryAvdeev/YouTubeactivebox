@@ -39,7 +39,6 @@
 }
 
 
-
 .social_icon {
   display: block;
   height: 18px;
@@ -49,4 +48,10 @@
 
 .social--footer .social_icon {
   fill: #fff;
+}
+
+@media (max-width: 991px) {
+  .social {
+    justify-content: center;
+  }
 }
