@@ -4,7 +4,10 @@
   justify-content: center;
   height: 750px;
   padding-top: 100px;
-  background: #31344e url("images/groupHeader.jpg") center no-repeat;
+  background-image: url('../../images/groupHeader.jpg');
+  background-color: #31344e;
+  background-position: center;
+  background-repeat: no-repeat;
   /* пока убрал не видно картинку "/ cover" */
 }
 
